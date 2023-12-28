@@ -1,213 +1,214 @@
 @font-face {
-    src: url("font/horizon.otf");
-    font-family: horizon;
+	src: url("font/horizon.otf");
+	font-family: horizon;
 }
 
 @font-face {
-    src: url("font/horizon_outlined.otf");
-    font-family: horizon-outlined;
+	src: url("font/horizon_outlined.otf");
+	font-family: horizon-outlined;
 }
 
-
 #top {
-    background-image: linear-gradient(to left, rgba(255, 0, 0, 0), rgba(230, 175, 46, 1)), url('images/karlis\ sheen\ top\ image.jpg');
-    background-repeat: no-repeat;
-    background-position: top center;
-    padding-top: 15em;
-    padding-bottom: 20em;
+	background-image: linear-gradient(to left, rgba(255, 0, 0, 0), rgba(230, 175, 46, 1)), url("images/karlis\ sheen\ top\ image.jpg");
+	background-repeat: no-repeat;
+	background-position: top center;
+	padding-top: 15em;
+	padding-bottom: 20em;
 }
 
 .horizon-outlined {
-    font-family: horizon-outlined;
+	font-family: horizon-outlined;
 }
 
 body {
-    background-color: #212529;
-    font-family: Arial, Helvetica, sans-serif;
+	background-color: #212529;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 header button {
-    background: none;
-    color: #ffffff;
-    border: 1px solid;
-    border-color: #212529;
-    padding: 0.5em 1em;
-    margin: 0.5em;
-    transition: all 0.25s;
-    text-transform: capitalize;
+	background: none;
+	color: #ffffff;
+	border: 1px solid;
+	border-color: #212529;
+	padding: 0.5em 1em;
+	margin: 0.5em;
+	transition: all 0.25s;
+	text-transform: capitalize;
 }
 
 header button:hover {
-    border-color: rgb(230, 175, 46);
-    color: #E6AF2E;
-    border: 1px solid;
-    box-shadow: 0 0.5em 0.5em -0.4em;
-    transform: translateY(-0.25em);
+	border-color: rgb(230, 175, 46);
+	color: #e6af2e;
+	border: 1px solid;
+	box-shadow: 0 0.5em 0.5em -0.4em;
+	transform: translateY(-0.25em);
 }
 
 .hover-effect {
-    transition: all 0.25s;
+	transition: all 0.25s;
 }
 
 .hover-effect:hover {
-    border-color: rgb(230, 175, 46);
-    color: #E6AF2E;
-    border: 1px solid;
-    box-shadow: 0.5em 0.5em 0.5em -0.4em;
-    cursor: pointer;
+	border-color: rgb(230, 175, 46);
+	color: #e6af2e;
+	border: 1px solid;
+	box-shadow: 0.5em 0.5em 0.5em -0.4em;
+	cursor: pointer;
 }
 
 .capitalize {
-    text-transform: uppercase;
+	text-transform: uppercase;
 }
 
-
 h1 {
-    padding: 30px;
-    background-color: #212529B3;
-    color: #E6AF2E;
-    display: inline-block;
-    font-family: horizon;
+	padding: 30px;
+	background-color: #212529b3;
+	color: #e6af2e;
+	display: inline-block;
+	font-family: horizon;
 }
 
 figcaption,
 h2,
 h4 {
-    color: #E6AF2E;
-    text-transform: uppercase;
+	color: #e6af2e;
+	text-transform: uppercase;
 }
 
 h3 {
-    color: #212529;
+	color: #212529;
 }
 
 p {
-    color: white;
+	color: white;
 }
 
 .text-background {
-    padding: 30px;
-    background-color: #E6AF2E4d;
+	padding: 30px;
+	background-color: #e6af2e4d;
 }
 
 p a {
-    color: #9f90e3;
-    text-decoration: none;
+	color: #9f90e3;
+	text-decoration: none;
 }
 
 .logo {
-    width: 5%;
-    height: 5%;
+	width: 5%;
+	height: 5%;
 }
 
 h3,
 h4 {
-    display: inline;
+	display: inline;
 }
 
 .description {
-    font-style: italic;
+	font-style: italic;
 }
 
 .song-button {
-    width: 100%;
-    background-color: #E6AF2E;
-    color: #212529;
-    padding: 0.5em 1em;
-    border: 0px;
+	width: 100%;
+	background-color: #e6af2e;
+	color: #212529;
+	padding: 0.5em 1em;
+	border: 0px;
 }
 
 .socials {
-    color: #E6AF2E;
-    font-size: 50pt;
-    transition: all 0.25s;
-
+	color: #e6af2e;
+	font-size: 50pt;
+	transition: all 0.25s;
 }
 
 .socials:hover {
-    color: #725615;
+	color: #725615;
 }
 
-
 footer {
-    background-color: #E6AF2E;
+	background-color: #e6af2e;
 }
 
 footer a {
-    background: none;
-    color: #212529;
-    border: 1px solid;
-    border-color: #212529;
-    padding: 0.5em 1em;
-    transition: all 0.25s;
-    text-transform: capitalize;
-    text-decoration: none;
-    transition: all 0.25s;
+	background: none;
+	color: #212529;
+	border: 1px solid;
+	border-color: #212529;
+	padding: 0.5em 1em;
+	transition: all 0.25s;
+	text-transform: capitalize;
+	text-decoration: none;
+	transition: all 0.25s;
 }
 
 footer a,
 footer p {
-    color: #212529;
-    text-decoration: none;
+	color: #212529;
+	text-decoration: none;
 }
 
 footer a:hover {
-    border-color: rgb(255, 255, 255);
-    color: #ffffff;
-    box-shadow: 0 0.5em 0.5em -0.4em;
-    transform: translateY(-0.25em);
+	border-color: rgb(255, 255, 255);
+	color: #ffffff;
+	box-shadow: 0 0.5em 0.5em -0.4em;
+	transform: translateY(-0.25em);
 }
 
 #footerLogo {
-    width: 50%;
+	width: 50%;
 }
 
 @media (max-width: 980px) {
-    #topLogo {
-        display: none;
-    }
+	#topLogo {
+		display: none;
+	}
 
-    .heading {
-        text-align: center;
-    }
+	.heading {
+		text-align: center;
+	}
 
-    footer {
-        display: flex;
-        justify-content: center;
-        text-align: center;
-    }
+	footer {
+		display: flex;
+		justify-content: center;
+		text-align: center;
+	}
 
-    #footerLogo {
-        width: 25%;
-    }
+	#footerLogo {
+		width: 25%;
+	}
 }
 
 @keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
+	0% {
+		opacity: 0;
+	}
 
-    100% {
-        opacity: 1;
-    }
+	100% {
+		opacity: 1;
+	}
 }
 
 .popup {
-
-    max-width: 80ch;
-    width: 100%;
-    padding: 30px;
-    background-color: #E6AF2ECC;
-    border: 0px;
+	/* pirmo reizi redzu ch vērtību :D */
+	max-width: 80ch;
+	width: 100%;
+	padding: 30px;
+	background-color: #e6af2ecc;
+	border: 0px;
 }
 
 .popup::backdrop {
-    background-color: #212529;
-    opacity: .7;
+	background-color: #212529;
+	opacity: 0.7;
 }
 
 .close-button {
-    color: #212529;
-    background: none;
-    border: 1px solid #212529;
+	color: #212529;
+	background: none;
+	border: 1px solid #212529;
 }
+
+/* CSS izskatās ok. Diezgan daudz Tu varētu nemaz nerakstīt, bet izmantot jau bootstrap klases. Piemēram, kur
+Tev ir uztaisīta klase .capitalize. Bootstrap'am ir klase jau text-uppercase, kas dara to pašu - text transform.
+HTML ir pāris ID, kas ir definēti, bet nekad netiek izmantoti. Uzmanies no liekiem ID, klasēm un tml.
+*/
